@@ -183,10 +183,14 @@
   padding: 14px 28px;
   box-sizing: border-box;
   margin-top: 40px;
+  transition: 0.3s;
   align-items: center;
   flex-shrink: 1;
   border-color: transparent;
   background-color: var(--dl-color-default-powerblue);
+}
+.home-frame16:hover {
+  background-color: rgba(83, 244, 255, 0.85);
 }
 .home-text11 {
   color: var(--dl-color-default-oscuro);
@@ -214,9 +218,13 @@
   display: flex;
   position: relative;
   box-sizing: border-box;
+  transition: 0.3s;
   align-items: center;
   flex-shrink: 1;
   border-color: transparent;
+}
+.home-frame2132:hover {
+  opacity: 0.85;
 }
 .home-text12 {
   color: var(--dl-color-default-blanco);

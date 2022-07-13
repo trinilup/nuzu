@@ -8,8 +8,23 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>nuzutest</title>
-        <meta property="og:title" content="nuzutest" />
+        <title>Nuzu - Innovation and Design - Free UI Kit Design</title>
+        <meta
+          name="description"
+          content="Nuzu is a startup that seeks to simplify the digital experience for all users, created by Trinidad Pilu, it focuses on innovation, diversity and inclusion."
+        />
+        <meta
+          property="og:title"
+          content="Nuzu - Innovation and Design - Free UI Kit Design"
+        />
+        <meta
+          property="og:description"
+          content="Free UI Kit Design - Nuzu is a startup that seeks to simplify the digital experience for all users, created by Trinidad Pilu, it focuses on innovation, diversity and inclusion."
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/bf68781c-e16c-4a71-8f28-11e5d9db60ee/fd5d56af-d08b-4345-aee7-40d686ddf0bf?org_if_sml=1"
+        />
       </Helmet>
       <div className="home-container1">
         <div className="home-container2">
@@ -53,8 +68,8 @@ const Home = (props) => {
                     Download our free design kit
                   </span>
                   <img
-                    src="/playground_assets/0719ef87-6dd2-4a8a-8617-6a4167eaac2f-h7t.svg"
                     alt="akariconsarrowright13942"
+                    src="/playground_assets/0719ef87-6dd2-4a8a-8617-6a4167eaac2f-h7t.svg"
                     className="home-akariconsarrowright1"
                   />
                 </div>
